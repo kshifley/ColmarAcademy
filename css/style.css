@@ -1,0 +1,43 @@
+.flex {
+  display: flex;
+}
+
+header {
+  height: 65px;
+  background-color: white;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.logo {
+  margin-left: 24px;
+  display: inline-flex;
+}
+
+.logo img {
+  height: 3rem;
+  width: 3rem;
+  margin: auto;
+}
+/*Colmar*/
+.title1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+/*Academy*/
+.title2 {
+  font-size: 1.5rem;
+  color: grey;
+}
+
+nav {
+  display: inline-flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+nav p {
+  padding: 0 8px;
+  align-items: flex-end;
+}
+
+/*1st Container */
