@@ -76,3 +76,56 @@ nav p {
   padding: 8px 0;
   text-align: center;
 }
+
+#box2 {
+  background-color: white;
+  height: auto;
+}
+
+#box2 .column {
+  flex-direction: column;
+  width: 60%;
+  padding: 32px 24px;
+}
+
+#box2 img {
+  width: 100%;
+}
+
+#box2 h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+#box2 .paragraph {
+
+}
+
+#box2b {
+  width: 423px;
+  border-left: 1px solid grey;
+  flex-direction: column;
+  padding: 16px 0;
+}
+
+#box2b .flex-container {
+  display: inline-flex;
+  height: 30%;
+}
+
+#box2b .flex-container img {
+  width: 35%;
+  height: 80%;
+  padding:16px;
+}
+#box2b .orient {
+  background-color: #e6e6e6;
+}
+#box2b .campus {
+  border-top: 0.5px solid grey;
+}
+#box2b .guest {
+  background-color: grey;
+}
