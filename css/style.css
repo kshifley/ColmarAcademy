@@ -2,6 +2,7 @@ html {
   width: 1024px;
   margin: auto;
   font-family: "Raleway", sans-serif;
+  color: #4f4e4e;
 }
 
 .flex {
@@ -9,7 +10,7 @@ html {
 }
 
 h2 {
-  font-weight: bold;
+  font-weight: 900;
   font-size: 2rem;
 }
 
@@ -37,7 +38,8 @@ header {
 /*Academy*/
 .title2 {
   font-size: 1.5rem;
-  color: grey;
+  font-weight: 300;
+  color: #bababa;
 }
 
 nav {
@@ -54,14 +56,14 @@ nav p {
 /*1st Container */
 #box1 {
   padding: 32px 24px;
-  background-color: grey;
+  background-color: #dee0e0;
   height: auto;
 }
 
 #box1 img {
   margin-right: 40px;
   width: 60%;
-  height: 450px;
+  height: 400px;
 }
 
 #box1 .learn {
@@ -73,13 +75,14 @@ nav p {
 }
 
 .learn h4 {
-
+  line-height: 1.5;
 }
 
 .learn p {
-  background-color: DimGrey;
-  padding: 8px 0;
+  background-color: #4f4e4e;
+  padding: 10px 0;
   text-align: center;
+  color: white;
 }
 
 #box2 {
@@ -104,53 +107,67 @@ nav p {
 }
 
 #box2 .paragraph {
-
+  font-size: .9rem;
+  color: #969696;
+}
+.name {
+  font-size: 10px;
+  margin-top: 16px;
+  font-weight: bold;
 }
 
 #box2b {
   width: 423px;
-  border-left: 1px solid grey;
+  border-left: 1px solid #dee0e0;
   flex-direction: column;
-  padding: 16px 0;
+
 }
 
 #box2b .flex-container {
   display: inline-flex;
   height: 30%;
+  line-height: 15px;
+}
+.flex-container a {
+  font-size: .8rem;
 }
 
 #box2b .flex-container img {
   width: 35%;
   height: 80%;
-  padding:16px;
+  padding: 16px;
+
 }
 .orient {
-  background-color: #e6e6e6;
+  background-color: #f2efef;
 }
+
 .campus {
   border-top: 0.5px solid grey;
+  border-color: #dee0e0;
 }
 .guest {
-  background-color: grey;
+  background-color: #dee0e0;
+
 }
 
 
 #box3 {
-  background-color: #e6e6e6;
+  background-color: #e8e8e8;
 }
 
 .start {
   text-align: center;
   font-size: 2rem;
-  padding: 32px 48px;
+  padding: 32px 48px 24px 48px;
 
 }
 
 #classes {
   justify-content: center;
   flex-wrap: wrap;
-  border: 1px solid black;
-  padding: 32px 16px;
+
+  padding: 0 16px 24px 16px;
 }
 #classes .course {
    height: 40%;
@@ -168,6 +185,11 @@ nav p {
 }
 .info {
   padding: 16px;
+}
+.info p {
+  color: #969696;
+  font-weight: 200;
+  font-size: .9rem;
 }
 #classes .two {
   padding-bottom: 0;
@@ -190,6 +212,9 @@ nav p {
 }
 .video p {
   margin-bottom: 32px;
+  color: #969696;
+  font-weight: 200;
+  font-size: .9rem;
 }
 #box4 {
   flex-direction: column;
